@@ -1,0 +1,24 @@
+# Project Configuration File
+
+# Data Settings
+data_dir: "data/"
+dataset_name: "sensor.csv"
+target_class: "RECOVERING" # Class to generate synthetic data for
+
+# Preprocessing Settings
+sequence_length: 24 # Length of time sequences for TimeGAN
+scaler_type: "MinMaxScaler"
+
+# TimeGAN Model Settings
+hidden_dim: 64 # Increased hidden dimension significantly
+epochs: 1000 # Increased epochs
+batch_size: 512 # Increased batch size
+gamma: 1 # TimeGAN parameter - kept same for now
+g_loss_v_weight: 20.0 # Increased weight for reconstruction loss
+d_steps: 1 # Discriminator training steps per generator step
+g_steps: 1 # Generator training steps per discriminator step
+
+
+# Evaluation Settings
+test_size: 0.3 # For train/test split
+random_state: 42

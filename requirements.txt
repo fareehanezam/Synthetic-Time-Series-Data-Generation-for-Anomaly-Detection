@@ -1,0 +1,11 @@
+PyYAML
+pandas
+numpy
+matplotlib
+seaborn
+plotly
+tensorflow
+scikit-learn
+xgboost
+kaggle
+streamlit

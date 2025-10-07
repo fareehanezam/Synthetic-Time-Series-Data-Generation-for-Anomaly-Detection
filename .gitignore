@@ -1,0 +1,21 @@
+# Ignore Colab-specific directories
+.config/
+.ipynb_checkpoints/
+
+# Ignore Kaggle API credentials
+kaggle.json
+
+# Ignore any Python cache directories
+__pycache__/
+
+# Ignore data and logs (optional, depending on whether you want to version these)
+# data/
+# logs/
+
+# Ignore saved models (optional)
+# models/
+
+# Ignore results (optional)
+# results/
+data/sensor.csv
+data/synthetic_data.csv

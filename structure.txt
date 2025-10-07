@@ -1,0 +1,17 @@
+Project Root/
+├── data/             # Raw and processed data files ( sensor.csv, synthetic_data.csv)
+├── models/           # Trained TimeGAN models and downstream classifiers ( timegan_generator.h5, timegan_decoder.h5, xgboost_model.h5)
+├── results/          # Evaluation plots, reports, and metrics 
+├── src/              # Python source code for modules  
+│   ├── __init__.py   # Makes src a Python package
+│   ├── logger.py
+│   ├── timegan.py
+│   ├── data_ingestion_&_eda.py
+│   ├── data_preprocessing_timegan.py
+│   ├── synthetic_df_quality_evaluation.py
+│   └── downstream_classifier_training_&_eval.py
+├── logs/             # Log files generated during execution
+├── app.py            # Streamlit UI application script
+├── requirements.txt  # Python dependencies
+├── config.yaml       # Project configuration settings
+└── structure.txt     # This file

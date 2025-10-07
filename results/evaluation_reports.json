@@ -1,0 +1,68 @@
+{
+    "baseline": {
+        "BROKEN": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 2.0
+        },
+        "NORMAL": {
+            "precision": 0.999951418577536,
+            "recall": 0.9999676118605366,
+            "f1-score": 0.999959515153478,
+            "support": 61751.0
+        },
+        "RECOVERING": {
+            "precision": 0.9995395948434622,
+            "recall": 0.9997697444163021,
+            "f1-score": 0.9996546563831011,
+            "support": 4343.0
+        },
+        "accuracy": 0.9999243524570322,
+        "macro avg": {
+            "precision": 0.6664970044736661,
+            "recall": 0.6665791187589463,
+            "f1-score": 0.6665380571788597,
+            "support": 66096.0
+        },
+        "weighted avg": {
+            "precision": 0.9998941011405618,
+            "recall": 0.9999243524570322,
+            "f1-score": 0.9999092258671362,
+            "support": 66096.0
+        }
+    },
+    "augmented": {
+        "BROKEN": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 2.0
+        },
+        "NORMAL": {
+            "precision": 0.999919033584869,
+            "recall": 0.9999676118605366,
+            "f1-score": 0.9999433221327072,
+            "support": 61751.0
+        },
+        "RECOVERING": {
+            "precision": 0.9999514170040485,
+            "recall": 0.9999352237210734,
+            "f1-score": 0.9999433202970016,
+            "support": 61751.0
+        },
+        "accuracy": 0.9999352247700479,
+        "macro avg": {
+            "precision": 0.6666234835296392,
+            "recall": 0.6666342785272034,
+            "f1-score": 0.6666288808099029,
+            "support": 123504.0
+        },
+        "weighted avg": {
+            "precision": 0.9999190325359198,
+            "recall": 0.9999352247700479,
+            "f1-score": 0.9999271283252117,
+            "support": 123504.0
+        }
+    }
+}
